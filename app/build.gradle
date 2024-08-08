@@ -5,7 +5,7 @@ plugins {
 ext {
     // Provide your own coordinates here
     PUBLISH_GROUP_ID = 'io.github.handharbeni'
-    PUBLISH_VERSION = '1.0.0'
+    PUBLISH_VERSION = '1.0.1'
     PUBLISH_ARTIFACT_ID = 'rxpermission-module'
 }
 group='io.github.handharbeni'
@@ -15,7 +15,7 @@ android {
 
     defaultConfig {
         applicationId "io.github.handharbeni.rxpermission"
-        minSdk 24
+        minSdk 21
         targetSdk 33
         versionCode 1
         versionName "1.0"
